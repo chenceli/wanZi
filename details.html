@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>丸子地球</title>
+    <link rel="stylesheet" href="css/details.css">
+    <script src="js/rem.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/details.js"></script>
+</head>
+<body>
+
+    <!--头部开始-->
+    <header>
+        <div class="return">
+            <a href="index.html">
+                <i class="returnIcon">&#xe659;</i>
+            </a>
+        </div>
+        <div class="headerCenter">
+            <div class="headerCenterLeft">
+                <a href="">资料</a>
+            </div>
+            <div class="headerCenterRight">
+                <a href="">服务</a>
+            </div>
+        </div>
+        <div class="headerRight">
+            <a href=""><i class="returnIcon">&#xe65c;</i></a>
+            <a><i class="heartIcon">&#xe62b;</i></a>
+        </div>
+    </header>
+    <!--头部结束-->
+
+    <!--内容开始-->
+    <section class="content">
+        <div class="contentImg">
+            <a href="#">
+                <img src="img/service1.png" alt="">
+            </a>
+        </div>
+        <div class="resume">
+            <div class="resumeName">张雨薇</div>
+            <div class="resumeSite">
+                <div class="resumeSiteBox">
+                    <i class="guideSiteIcon">&#xe61f;</i>
+                    <span>英国 - 伦敦</span>
+                </div>
+                <div class="guideScore">
+                    <i class="resumeScoreIcon">&#xe610;</i>
+                    <i class="resumeScoreIcon">&#xe610;</i>
+                    <i class="resumeScoreIcon">&#xe610;</i>
+                    <i class="resumeScoreIcon">&#xe610;</i>
+                    <i class="resumeScoreIcon">&#xe610;</i>
+                    <div class="textC"></div>
+                </div>
+            </div>
+            <div class="resumeTags">
+                <ul class="resumeTagsBox">
+                    <li>
+                        <i class="resumeTagsIcon">&#xe611;</i>
+                        <div class="resumeTagsText">商业翻译</div>
+                    </li>
+                    <li>
+                        <i class="resumeTagsIcon">&#xe611;</i>
+                        <div class="resumeTagsText">美食达人</div>
+                    </li>
+                    <li>
+                        <i class="resumeTagsIcon">&#xe611;</i>
+                        <div class="resumeTagsText">全职向导</div>
+                    </li>
+                    <li>
+                        <i class="resumeTagsIcon">&#xe611;</i>
+                        <div class="resumeTagsText">行程规划</div>
+                    </li>
+                </ul>
+                <ul class="resumeTagsBox">
+                    <li>
+                        <i class="resumeTagsIcon">&#xe611;</i>
+                        <div class="resumeTagsText">90后</div>
+                    </li>
+                    <li>
+                        <i class="resumeTagsIcon">&#xe611;</i>
+                        <div class="resumeTagsText">媒体与发展学 硕士</div>
+                    </li>
+                </ul>
+                <ul class="resumeTagsBox">
+                    <li>
+                        <i class="resumeTagsIcon">&#xe611;</i>
+                        <div class="resumeTagsText">毕业于：威斯敏斯特大学</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="resumeButton">
+                <a href="">查看丸子详细资料</a>
+            </div>
+        </div>
+        <div class="introduce">
+            <h5 class="introduceTitle">关于在这座城市的我</h5>
+            <p class="introduceText">
+                "热情""耐心""认真""自律""90后"…这些都可以是我的标签，我是丸子小鱼，一个对生活永远充满激情和好奇心的射手座姑娘。毕业于伦敦威斯敏…
+            </p>
+            <div class="introduceMore">
+                <a href="">查看更多内容</a>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="commentUser">
+                <div class="commentUserBox">
+                    <div class="commentUserImg">
+                        <img src="img/krystal1.png" alt="" />
+                    </div>
+                    <h5 class="commentUserName">李女士</h5>
+                </div>
+                <div class="commentStar">
+                    <i class="guideScoreIcon">&#xe610;</i>
+                    <i class="guideScoreIcon">&#xe610;</i>
+                    <i class="guideScoreIcon">&#xe610;</i>
+                    <i class="guideScoreIcon">&#xe610;</i>
+                    <i class="guideScoreIcon">&#xe610;</i>
+                </div>
+            </div>
+            <p class="introduceText">
+                当初选择小鱼，是看到丸子地球好评如潮的评论，小鱼果然不辱使命，想自家亲妹妹一样热情帮助我们，我们全家出行有老人和孩子，推着…
+            </p>
+            <div class="introduceMore">
+                <a href="comment.html">查看全部评论(47条)</a>
+            </div>
+        </div>
+        <div class="photo">
+            <h5 class="introduceTitle">丸子相册</h5>
+            <a href="" class="photoBox">
+                <img src="img/detail.png" alt="">
+            </a>
+        </div>
+    </section>
+    <!--内容结束-->
+
+    <!--底部开始-->
+    <footer>
+        <div class="footerLeft">
+            <a href="consult.html">
+                咨询
+            </a>
+        </div>
+        <div class="footerRight">
+            <a href="book.html">
+                预定
+            </a>
+        </div>
+    </footer>
+    <!--底部结束-->
+
+</body>
+</html>
+<script>
+$(function(){
+    NumbersAnimate.Target=$(".textC");
+    NumbersAnimate.Numbers=47;
+    NumbersAnimate.Duration=1500;
+    NumbersAnimate.Animate();
+});
+var NumbersAnimate={
+    Target:null,
+    Numbers:0,
+    Duration:500,
+    Animate:function(){
+        var array=NumbersAnimate.Numbers.toString().split("");
+        //遍历数组
+        for(var i=0;i<array.length;i++){
+            var currentN=array[i];
+            //数字append进容器
+            var t=$("<span></span>");
+            $(t).append("<span class=\"childNumber\">"+array[i]+"</span>");
+            $(t).css("margin-left",10*i+"px");
+            $(NumbersAnimate.Target).append(t);
+            //生成滚动数字,根据当前数字大小来定
+            for(var j=0;j<=currentN;j++){
+                var tt;
+                if(j==currentN){
+                    tt=$("<span class=\"main\"><span>"+j+"</span></span>");
+                }else{
+                    tt=$("<span class=\"childNumber\">"+j+"</span>");
+                }
+                $(t).append(tt);
+                $(tt).css("margin-top",(j+1)*25+"px");
+            }
+            $(t).animate({marginTop:-((parseInt(currentN)+1)*25)+"px"},NumbersAnimate.Duration,function(){
+                $(this).find(".childNumber").remove();
+            });
+        }
+    },
+    ChangeNumber:function(numbers){
+        var oldArray=NumbersAnimate.Numbers.toString().split("");
+        var newArray=numbers.toString().split("");
+        for(var i=0;i<oldArray.length;i++){
+            var o=oldArray[i];
+            var n=newArray[i];
+            if(o!=n){
+                var c=$($(".main")[i]);
+                var num=parseInt($(c).html());
+                var top=parseInt($($(c).find("span")[0]).css("marginTop").replace('px', ''));
+
+                for(var j=0;j<=n;j++){
+                    var nn=$("<span>"+j+"</span>");
+                    if(j==n){
+                        nn=$("<span>"+j+"</span>");
+                    }else{
+                        nn=$("<span class=\"yy\">"+j+"</span>");
+                    }
+                    $(c).append(nn);
+                    $(nn).css("margin-top",(j+1)*25+top+"px");
+                }
+                var margintop=parseInt($(c).css("marginTop").replace('px', ''));
+                $(c).animate({marginTop:-((parseInt(n)+1)*25)+margintop+"px"},NumbersAnimate.Duration,function(){
+                    $($(this).find("span")[0]).remove();
+                    $(".yy").remove();
+                });
+            }
+        }
+        NumbersAnimate.Numbers=numbers;
+    },
+
+    RandomNum:function(m,a){
+        var Range = a - m;
+        var Rand = Math.random();
+        return(m + Math.round(Rand * Range));
+    }
+}
+</script>

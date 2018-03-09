@@ -1,0 +1,280 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 571134 */
+    src: url('//at.alicdn.com/t/font_571134_jbj7sn1ipbymn29.eot');
+    src: url('//at.alicdn.com/t/font_571134_jbj7sn1ipbymn29.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_571134_jbj7sn1ipbymn29.woff') format('woff'),
+    url('//at.alicdn.com/t/font_571134_jbj7sn1ipbymn29.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_571134_jbj7sn1ipbymn29.svg#iconfont') format('svg');
+}
+
+i{
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*头部开始*/
+header{
+    width: 100%;
+    height: 4.5rem;
+    background:url("../img/tokyo2.jpg") no-repeat center;
+    position: relative;
+}
+.headerShadow{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    background: rgba(0,0,0,0.3);
+}
+.headerTitle{
+    width: 100%;
+    height: 0.9rem;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.headerTitle i{
+    font-size: 0.38rem;
+    color: #fff;
+    font-family: iconfont;
+}
+.headerBottom{
+    width: 100%;
+    height: 1.45rem;
+    position: absolute;
+    left: 0;
+    bottom: 0.1rem;
+    padding:0 0.6rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.headerBottomLeft,.headerBottomRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.headerBottomRight{
+    padding-top: 0.2rem;
+    box-sizing: border-box;
+}
+.font50{
+    font-size: 0.5rem;
+}
+.font26{
+    font-size: 0.26rem;
+}
+.font24{
+    font-size: 0.26rem;
+}
+.fontWhite{
+    color: #fff;
+}
+/*头部开始*/
+
+/*时间开始*/
+.time{
+    width: 100%;
+    height: 1.31rem;
+    padding: 0.22rem 0 0.12rem;
+    box-sizing: border-box;
+    display: flex;
+    border-bottom: 0.01rem solid #e7e7e7;
+}
+.timeLeft,.timeRight{
+    width: 50%;
+    height: 100%;
+}
+.timeLeft > a,.timeRight > a{
+    font-size: 0.3rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 0.96rem;
+    color: #77c0cd;
+}
+.timeLeft{
+    box-sizing: border-box;
+    border-right: 0.01rem solid #e7e7e7;
+}
+/*时间结束*/
+
+/*筛选开始*/
+.more{
+    width: 100%;
+    height: 1.2rem;
+}
+.more a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0.25rem;
+    color: #77c0cd;
+    text-align: center;
+    line-height: 1.2rem;
+    text-decoration: underline;
+}
+/*筛选结束*/
+
+/*向导推荐开始*/
+.guide{
+    width: 100%;
+    padding: 0 0.4rem 0.11rem;
+    box-sizing: border-box;
+}
+.guideTitle{
+    width: 100%;
+    height: 0.4rem;
+}
+.guideTitle > h5{
+    font-size: 0.4rem;
+    color: #6d6d6d;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+.guideList{
+    padding-bottom: 1.09rem;
+}
+.guideList li{
+    padding-top: 0.7rem;
+}
+.guideList > li > a.guideListBox{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.guideImg{
+    width: 100%;
+    position: relative;
+    border-radius: 0.1rem;
+}
+.guideAd{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 0.6rem;
+    border-radius: 0 0 0.1rem 0.1rem;
+    display: flex;
+    align-items: center;
+    padding-left: 0.13rem;
+    box-sizing: border-box;
+}
+.guideImg > img{
+    display: block;
+    width: 100%;
+    border-radius: 0.1rem;
+}
+.font17{
+    font-size: 0.17rem;
+    color: #fff;
+    margin-right: 0.08rem;
+}
+.font23{
+    font-size: 0.23rem;
+    color: #fff;
+    margin-right: 0.08rem;
+}
+.font19{
+    margin-right: 0.08rem;
+    font-size: 0.19rem;
+    color: #fff;
+}
+.font27{
+    font-size: 0.27rem;
+    margin-right: 0.08rem;
+    color: #fff;
+}
+.guideLine{
+    margin-right: 0.08rem;
+    width: 0.02rem;
+    height: 0.29rem;
+    background: #fff;
+}
+.guideNameBox{
+    width: 100%;
+    height: 0.64rem;
+    padding-top: 0.35rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.guideName{
+    font-size: 0.27rem;
+    color: #484848;
+}
+.guideSite{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1.45rem;
+}
+.guideSiteIcon{
+    font-size: 0.2rem;
+    color: #77c0cd;
+    font-family: iconfont;
+}
+.guideSite span{
+    font-size: 0.24rem;
+    color: #484848;
+}
+.guideScore{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 1.65rem;
+}
+.guideJob{
+    font-size: 0.24rem;
+    color: #484848;
+}
+.guideScoreIcon{
+    font-size: 0.22rem;
+    color: #ffc24d;
+    font-family: iconfont;
+}
+.guideScore span{
+    font-size: 0.24rem;
+    color: #484848;
+}
+.guideTagsBox{
+    width: 100%;
+    padding-top: 0.27rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.guideTags{
+    display: flex;
+    margin-right: 0.05rem;
+}
+.guideTagsText{
+    font-size: 0.2rem;
+    color: #4d4d4d;
+}
+.guideTagsIcon{
+    font-size: 0.2rem;
+    color: #4d4d4d;
+    font-family: iconfont;
+}
+/*向导推荐结束*/
